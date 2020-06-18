@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <script type="text/javascript" src="Practica-JS3.js"></script>
+    <link rel=stylesheet type="text/css" href="Practica-JS3.css">
+
+</head>
+<body>
+    <header>
+    <h1>Práctica Javascript</h1>
+    <h2>Conversor de moneda online</h2>
+    </header>
+    <form>
+        <label for="moneda1">Seleccione el tipo de moneda a convertir:</label>
+        <select name="moneda1" id="moneda1">
+            <option value="Euros">Euros</option>
+            <option value="Libras">Libras</option>
+            <option value="Dólares">Dólares</option>
+            <option value="Rupias">Rupias</option>
+        </select>
+        </br></br>
+        <label for="monedas2">Seleccione el tipo de moneda al que quiere realizar la conversión: </label>
+        <select name="moneda2" id="moneda2">
+            <option value="Euros">Euros</option>
+            <option value="Libras">Libras</option>
+            <option value="Dólares">Dólares</option>
+            <option value="Rupias">Rupias</option>
+        </select>
+        </br></br>
+        <label for="cantidad">Introduzca la cantidad: </label>
+        <input type="number" name="cantidad">
+        </br></br>
+        <label for="resultado">Resultado: </label>
+        <div>
+            <span id="resultado"></span>
+        </div>
+        </br></br>
+        <input type="button" name="convert" value="Convertir" onclick="convertir()">
+        <button name="borrar" onclick="reset()">Borrar</button>
+        
+      
+        
+    </form>
+</body>
+</html>
